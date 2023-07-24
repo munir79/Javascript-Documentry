@@ -27,3 +27,14 @@ for (var i=0; i<num.length;i++){
     var number=num[i];
     console.log(number);
 }
+
+
+//5. Break
+
+for(var i=0;i<=20;i++){
+    console.log(i);
+    if(i>100){
+        break;
+    }
+}
+
