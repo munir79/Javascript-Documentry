@@ -38,3 +38,27 @@ for(var i=0;i<=20;i++){
     }
 }
 
+// 6. break in while loop
+var i=0;
+while(i<=20){
+    console.log(i);
+    i++;
+    if(i>10){
+        break;
+    }
+ 
+}
+
+// 7.string in break
+var items=['mobile','sunglass','leptop','watch','pen'];
+var i=0;
+while(i<=items.length){
+    console.log(items[i]);
+    i++;
+    if(items[i]=='leptop'){
+        break;
+    }
+  
+    
+}
+
