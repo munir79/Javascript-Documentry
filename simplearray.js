@@ -12,3 +12,8 @@ console.log(age[3]);
 var element =age[3];
 console.log(element);
 
+//5. set element by index 
+age[2]=77;
+age[3]=89;
+console.log(age);
+
