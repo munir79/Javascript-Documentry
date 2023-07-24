@@ -63,7 +63,7 @@ while(i<=items.length){
 }
 
 
-// continue
+// 8.continue
 for (var i=0; i<=20;i++){
    
     if(i>13){
@@ -72,4 +72,7 @@ for (var i=0; i<=20;i++){
     console.log(i);
 
 }
-
+//9. revese loop
+for (var i=10;i>=0;i--){
+ console.log(i);
+}
