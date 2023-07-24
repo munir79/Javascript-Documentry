@@ -21,4 +21,12 @@ console.log(age);
 var mobile=['nokia','samsung','sawmi','i-phone','redmi'];
 var position=mobile.indexOf('samsung');
 console.log(position);
+ 
 
+// 7. push 
+var country=['bangladesh','india','pakistan','saudi','america'];
+country.push('germany');
+console.log(country);
+country.pop('england');
+country.push('singapur');
+console.log(country);
