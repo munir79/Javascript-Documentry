@@ -17,3 +17,8 @@ age[2]=77;
 age[3]=89;
 console.log(age);
 
+// 6. find index of an element
+var mobile=['nokia','samsung','sawmi','i-phone','redmi'];
+var position=mobile.indexOf('samsung');
+console.log(position);
+
