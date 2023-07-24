@@ -1,3 +1,5 @@
+//1. Declare object
+
 var mobile={
     name:'samsung',
     price:'10k',
