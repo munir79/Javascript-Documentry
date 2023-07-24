@@ -26,11 +26,13 @@ function add2(x,y){
 add2(20,30);
 
 // 4.return value
-console.log(" return");
+
 function add3(x,y){
     var sum=x+y;
     return sum;
 }
 var result=add3(20,45);
 console.log(result);
+
+// 
 
