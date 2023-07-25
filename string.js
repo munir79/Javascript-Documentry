@@ -55,3 +55,16 @@ const sentence=line3.split(' ');
 console.log(sentence);
 const char=line3.split('');
 console.log(char);
+
+//7. slice
+
+const partial=line3.slice(5,19);
+console.log(partial);
+
+//8. join
+const lines=[
+    'i am jakir hossain munir', 'i am from bangladesh' ,'Bangladesh is a small coutry', 'i love my bangladesh'
+]
+
+const line6=lines.join('.');
+console.log(line6);
