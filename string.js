@@ -22,3 +22,11 @@ if(username1.toLowerCase()==userinput1.toUpperCase()){
 else{
     console.log('invalid user');
 }
+
+//2. search with includes
+
+const line='our country name is Bangladesh .Bangladesh is a small country';
+const search='bangladesh';
+
+const doesExist=line.toLowerCase().includes(search.toLowerCase());
+console.log(doesExist);
