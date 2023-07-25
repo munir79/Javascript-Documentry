@@ -35,3 +35,11 @@ console.log(doesExist);
 
 const line1='my name is jakir hossain munir '
 console.log(line1.indexOf('my'));
+
+
+//4. startswith
+console.log(line1.startsWith('my'));
+
+// 5. endswith
+
+console.log(line1.endsWith('munir'));
