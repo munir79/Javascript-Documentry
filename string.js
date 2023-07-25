@@ -30,3 +30,8 @@ const search='bangladesh';
 
 const doesExist=line.toLowerCase().includes(search.toLowerCase());
 console.log(doesExist);
+
+//3. indexof
+
+const line1='my name is jakir hossain munir '
+console.log(line1.indexOf('my'));
