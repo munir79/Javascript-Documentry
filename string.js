@@ -43,3 +43,15 @@ console.log(line1.startsWith('my'));
 // 5. endswith
 
 console.log(line1.endsWith('munir'));
+
+
+// 6.split
+
+const line3='i am jakir hossain munir. i am from bangladesh. Bangladesh is a small coutry. i love my bangladesh.'
+const dot=line3.split('.');
+console.log(dot);
+
+const sentence=line3.split(' ');
+console.log(sentence);
+const char=line3.split('');
+console.log(char);
